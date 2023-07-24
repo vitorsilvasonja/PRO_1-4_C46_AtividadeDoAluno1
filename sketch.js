@@ -4,7 +4,7 @@ var database, gameState;
 var form, player, playerCount;
 var allPlayers, car1, car2,fuels, powerCoins;
 var cars = [];
-var fuelImage, powerCoinImage,obstacle1,obstacle1Image;
+var fuelImage, powerCoinImage,obstacle1,obstacle1Image,obstacle2,obstacle2Image;
 //BP
 function preload() {
   backgroundImage = loadImage("./assets/background.png");
@@ -15,6 +15,7 @@ function preload() {
   powerCoinImage = loadImage("./assets/goldCoin.png");
   lifeImage = loadImage("./assets/life.png");
   obstacle1Image = loadImage("./assets/obstacle1.png"); 
+  obstacle2Image = loadImage("./assets/obstacle2.png"); 
 }
 
 //BP
